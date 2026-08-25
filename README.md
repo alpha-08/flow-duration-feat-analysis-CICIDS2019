@@ -12,6 +12,8 @@ Using a combination of bootstrap sampling, log‑transformation, and permutation
 - A simple yet effective feature like Flow Duration — if validated — can support or simplify intrusion detection or traffic classification pipelines.  
 
 ---
+## Research Question
+> Can Flow Duration provide statistically meaningful discriminatory information between benign and DDoS network traffic?
 
 ## Hypotheses
 
