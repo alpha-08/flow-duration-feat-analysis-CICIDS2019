@@ -59,7 +59,7 @@ The project tests whether observed differences are statistically significant —
 
 - **Observed log‑mean difference:** ~ 0.10 → corresponds to ~10% higher average Flow Duration for DDoS flows compared to benign flows.  
 - **Empirical p-value (one-sided):** ~ 0.20% (permutation test with many random shuffles) — extremely unlikely under the null.  
-- **Conclusion:** Flow Duration is a statistically significant and stable feature for distinguishing benign vs DDoS traffic — worthy of inclusion in detection / classification models.  
+- **Conclusion:** The results indicate a statistically significant difference in Flow Duration between the analyzed benign and DDoS traffic. This suggests that Flow Duration may provide useful discriminatory information, although its predictive value should be evaluated alongside other features in a complete detection model.  
 
 > **Note:** While statistical significance is clear, practical performance (e.g. detection accuracy, false positives) should be further evaluated in a full modeling pipeline.
 
